@@ -42,3 +42,10 @@
 #     print(c)
 # result = my_func(4,7)
 # print(result)
+
+#3)
+def palindrome(word):
+    print(word[::-1])
+    return word == word[::-1]
+
+palindrome('안녕하세요')
